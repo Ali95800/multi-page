@@ -1,230 +1,225 @@
 <!DOCTYPE html>
 <html lang='fr'>
-
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <meta name='description' content='index du site, page structure'>
-    <meta name='author' content='Sonia Bougamha'>
-    <title>Ma page structure</title>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width-device-width, initial-scale-1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <meta name='description' content='zoning en HTML/CSS'>
+  <meta name='author' content='Makan MACALOU'>
+  <meta name='keywords' content=', , , '>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald:wght@300&display=swap"
-        rel="stylesheet">
-    <!-- CDN de Font-awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Mon CSS-->
-    <link rel='stylesheet' href='css/style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='css/style.css'>
+  <title>Ma page zoning</title>
 </head>
-
 <body>
     <header>
-        <div id="logo">
-            <a href="#logo">
-                <button type="button">
-                    <i class="fas fa-arrow-circle-up"></i>
-                </button>
-            </a>
+		<div id="logo">
+			<a href="#logo">
+				<button type="button">
+					<i class="fas fa-arrow-circle-up"></i>
+				</button>
+			</a>
 
-            <img src="img/logo.png" alt="css 3, html 5">
-        </div>
+			<img src="img/logo.png" alt="css 3, html 5">
+		</div>
 
-        <div id="slogan">
-            <h1>Mon premier site HTML/CSS</h1>
-        </div>
+		<div id="slogan">
+			<h1>Mon premier site HTML/CSS</h1>
+		</div>
 
-        <div id="social">
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-
-            <a href="http://www.instagram.com/" target="_blank">
-                <i class="fab fa-instagram-square"></i>
-            </a>
-        </div>
+		<div id="social">
+			<a href="https://www.facebook.com/" target="_blank">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a href="http://www.instagram.com/" target="_blank">
+				<i class="fab fa-instagram-square"></i>
+			</a>
+		</div>
 
         <div class="clear"></div>
-    </header>
+	</header>
 
     <nav>
         <div class="ancreNav">
-            <a href="index.html">Structure</a>
-            <a href="texte.html">Textes</a>
+            <a href="text.html" >Texte</a>
+            <a href="index.html" >Structure</a>
             <a href="selecteur.html">Sélecteurs</a>
             <a href="image.html">Images</a>
-            <a href="position.html">Positions</a>
+            <a href="position.html">Position</a>
             <a href="tableau.html">Tableaux</a>
             <a href="zoning.html" class="activ">Zoning</a>
             <a href="listes.html">Listes</a>
             <a href="lien_menu.html">Liens & menus</a>
             <a href="formulaire.html">Formulaires</a>
-            <a href="multimedia.html">Multimedias</a>
-            <a href="animation.html">Animations</a>
+            <a href="multimedia.html">Multimédia</a>
+            <a href="animation.html">Animations</a>          
         </div>
     </nav>
 
     <main>
-        <!--Zoning 1-->
-        <h2>Zoning</h2>
+        <!-----------ZONING 1--------------->
+       <h2>Zoning</h2>
 
-        <section>
-            <h3>Zoning 1</h3>
-            <div id="zoning1">
-                <header>
-                    <p>zone du haut</p>
-                </header>
-                <aside>
-                    zone de gauche
+       <section>
+           <h3>Zoning 1</h3>
+
+           <div id="zoning1">
+               <header>
+                   <p>Zone du Haut</p>
+               </header>
+
+               <aside>
+                   Zone de gauche
                 </aside>
-                <section>zone de droite</section>
+
+                <section>
+                    Zone de droite
+                </section>
+
                 <div class="clear"></div>
-            </div>
-        </section>
 
-        <section>
-            <h3>Zoning2</h3>
+           </div>
+       </section>
 
-            <div id="zoning2">
-                <header>
-                    <p>zone du haut <br> HEADER</p>
-                </header>
+       <section>
+           <h3>zoning 2</h3>
+
+           <div id="zoning2">
+               <header>
+                   <p>Zone du haut <br> HEADER</p>
+               </header>
+
+               <aside>
+                   <p>zone de gauche <br> ASIDE</p>
+               </aside>
+               
+               <section class="middle">
+                   <p>zone du milieu <br> MIDDLE</p>
+                </section>
 
                 <aside>
                     <p>zone de gauche <br> ASIDE</p>
                 </aside>
 
-                <section class="middle">
-                    <p>zone du milieu <br> MIDDLE</p>
-                </section>
-
-                <aside>
-                    <p>zone de droite <br> ASIDE</p>
-                </aside>
-
                 <div class="clear"></div>
-            </div>
-        </section>
+           </div>
+       </section>
 
-        <section>
-            <h3>Zoning3</h3>
+       <section>
+            <h3>zoning 3</h3>
 
             <div id="zoning3">
+                <section class="gauche">
+                    <p>gauche <br> section</p>
+                </section>
 
-                <div class="flex">
-                    <section>
-                        <p>zone de gauche</p>
-                    </section>
+                <section class="droite">
+                    <p>droite <br> section</p>
+                </section>
 
-                    <aside>
-                        <p>zone de droite</p>
-                    </aside>
-                </div>
-                <div class="clear"></div>
-                <footer>
-                    <p>bas</p>
-                </footer>
             </div>
-        </section>
+            
+            <section class="bas">
+                <p>bas <br> footer</p>
+            </section>
+       </section>
 
-        <section>
-            <h3>Zoning4</h3>
+       <section>
+           <h3>zoning 4</h3>
 
-            <div id="zoning4">
+           <div id="zoning4">
+               <header>
+                <p>header</p>
+               </header>
 
-                <header>
-                    <p>HEADER</p>
+               <nav>
+                <p>nav</p>
+               </nav>
+
+               <section>
+                <p>section</p>
+               </section>
+
+               <footer>
+                <p>footer</p>
+               </footer>
+           </div>
+       </section>
+       
+       <section>
+           <h3>zoning 5</h3>
+
+           <div id="zoning5">
+               <header>
+                <p>header</p>
+               </header>
+
+               <nav>
+                <p>nav</p>
+               </nav>
+                                
+                   <div class="zone">
+                       <div class="zone1">zone 1</div>
+                       <div class="zone2">zone 2</div>
+                   </div>
+                               
+                    <div class="zone">
+                        <div class="zone3">zone 3</div>
+                        <div class="zone4">zone 4</div>
+                    </div>
+                                              
+               <footer>
+                <p>footer</p>
+               </footer>
+           </div>
+       </section>
+
+       <section>
+           <h3>zoning 6</h3>
+
+           <div id="zoning6">
+
+                <header>               
+                    <div class="haut1">haut 1</div>
+                    <div class="haut2">haut 2</div>
+                    <div class="haut3">haut 3</div>              
                 </header>
 
-                <nav>
-                    <p>NAV</p>
-                </nav>
+                <nav>menu</nav>
 
                 <section>
-                    <p>SECTION</p>
+                    <aside class="zoneGauche">
+                        zone de gauche
+                    </aside>
+                   
+                        <div class="a">a</div>
+                        <div class="b">b</div>
+
+                    
+                        <div class="slideShow">
+                            Slide Show
+                        </div>
+                    
+                    <section>
+                        <div class="c">c</div>
+                        <div class="d">d</div>
+                        <div class="e">e</div>
+                        <div class="f">f</div>
+
+                    </section>
                 </section>
 
                 <footer>
-                    <p>FOOTER</p>
+                    Bas
                 </footer>
-
-                <div class="clear"></div>
-            </div>
-        </section>
-
-        <section>
-            <h3>Zoning5</h3>
-
-            <div id="zoning5">
-
-                <header>
-                    <p>HEADER</p>
-                </header>
-
-                <nav>
-                    <p>NAV</p>
-                </nav>
-                <div class="container">
-                    <div class="flex1">
-                        <section>zone1</section>
-                        <section>zone3</section>
-                    </div>
-                    <div class="flex2">
-                        <section>zone2</section>
-                        <section>zone4</section>
-                    </div>
-                </div>
-
-                <footer>
-                    <p>FOOTER</p>
-                </footer>
-            </div>
-            <div class="clear"></div>
-        </section>
-
-        <section>
-
-            <h3>ZONING 6</h3>
-
-            <div id="zoning6">
-
-                <header>
-                    <div class="haut1"><p>HAUT1</p></div>
-                    <div class="haut2"><p>HAUT2</p></div>
-                    <div class="haut3"><p>HAUT3</p></div>
-                 </header>
-
-                 <section class="menu"><p>MENU</p></section>
-
-                 <aside><p>ZONE DE GAUCHE</p></aside>
-
-                 <div class="zone1"><p>A</p></div>
-                 <div class="zone2"><p>B</p></div>
-
-
-                 <section class="shade"><p>SHADE......</p></section>
-
-
-                 <div class="zone3"><p>C</p></div>
-                 <div class="zone4"><p>D</p></div>
-                 <div class="zone5"><p>E</p></div>
-                 <div class="zone6"><p>F</p></div>
-
-                 <div class="clear"></div>
-
-                 <footer><p>BAS</p></footer>
-            </div>
-        </section>
+           </div>
+       </section>
+        
     </main>
-    <footer>
-        <!-- liens administratifs, mentions légales, plan du site, cgu et cgv, contact, copyright-->
-        <small>&copy; 2021 Le PoleS</small>
-    </footer>
 
+  <script src='js/script.js'></script>
 </body>
-
 </html>

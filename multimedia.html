@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta http-equiv='X-UA-Compatible' content='ie=edge'>
+	<meta name='description' content='multimédia'>
+	<meta name='author' content='Sonia Bougamha'>
+	<title>Ma page structure</title>
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<!-- CDN de Font-awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Mon CSS-->
+	<link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+	<header>
+		<div id="logo">
+			<a href="#logo">
+				<button type="button">
+					<i class="fas fa-arrow-circle-up"></i>
+				</button>
+			</a>
+
+			<img src="img/logo.png" alt="css 3, html 5">
+		</div>
+
+		<div id="slogan">
+			<h1>Mon premier site HTML/CSS</h1>
+		</div>
+
+		<div id="social">
+			<a href="https://www.facebook.com/" target="_blank">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+
+			<a href="http://www.instagram.com/" target="_blank">
+				<i class="fab fa-instagram-square"></i>
+			</a>
+		</div>
+
+		<div class="clear"></div>
+	</header>
+
+	<nav>
+		<div class="ancreNav">
+			<a href="index.html" >Structure</a>
+			<a href="texte.html">Textes</a>
+			<a href="selecteur.html">Sélecteurs</a>
+			<a href="image.html">Images</a>
+			<a href="position.html">Positions</a>
+			<a href="tableau.html">Tableaux</a>
+			<a href="zoning.html">Zonning</a>
+			<a href="listes.html">Listes</a>
+			<a href="lien_menu.html">Liens & menus</a>
+			<a href="formulaire.html">Formulaires</a>
+			<a href="multimedia.html"class="activ">Multimedias</a>
+			<a href="animation.html">Animations</a>
+		</div>
+	</nav>
+
+	<main>
+		<h2>Multimedia</h2>
+
+		<section class="videoFond">
+			<h3>Vidéo en fond</h3>
+			<div class="videoTexte">
+				<video autoplay loop>
+					<source src="video/videoBackground.webm" type="video/webm">
+					<source src="video/videoBackground.mp4" type="video/mp4">
+				</video>
+
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ad expedita autem, aperiam aliquid labore harum distinctio sed voluptates quos asperiores architecto laboriosam assumenda repellendus adipisci sequi in! Corporis optio placeat quam possimus nulla? Ab earum quaerat enim libero. Deleniti dolorem quidem et eaque sint eius corporis dicta illum vel harum accusantium doloribus doloremque accusamus, voluptas magni ullam beatae. Quas voluptates nobis quo consequatur provident! Eaque voluptatem maxime ipsa aperiam amet veniam, provident fuga temporibus?
+				</p>
+			</div>
+		</section>
+
+		<section>
+			<h3>Vidéo YTB</h3>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/G93-YeL97zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+
+		<section class="audio">
+			<h3>Audio</h3>
+			
+			<h4>Format Mp3</h4>
+			<br>
+			<audio src="audio/son.mp3" controls></audio>
+
+			<h4>Format Ogg</h4>
+			<br>
+			<audio src="audio/son.ogg" controls></audio>
+		</section>
+
+        <section>
+            <h3>Google Map</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20937.90533083641!2d2.41342205!3d49.00605375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1639126361563!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+	</main>
+
+	<footer>
+		<!-- liens administratifs, mentions légales, plan du site, cgu et cgv, contact, copyright-->
+		<small>&copy; 2021 Le PoleS</small>
+	</footer>
+
+</body>
+
+</html>
